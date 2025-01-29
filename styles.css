@@ -1,0 +1,52 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background: url(./Oracle\ _\ Alura.png) no-repeat center center;
+    background-size: cover;
+    height: 100vh;
+    font-family: 'Montserrat', sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    color: #FFFFFF;
+    overflow: hidden;
+}
+
+h1 {
+    font-weight: 400;
+    font-size: 3rem;
+    margin-bottom: 40px; 
+}
+
+.cronometro {
+    display: flex;
+    justify-content: center;
+    gap: 30px; 
+    transform: scale(1.5); 
+}
+
+.tempo {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.tempo h2 {
+    font-weight: 700;
+    font-size: 2.5rem;
+    margin-bottom: 5px;
+}
+
+.tempo small {
+    font-size: 1rem;
+    font-weight: 400;
+}
+
